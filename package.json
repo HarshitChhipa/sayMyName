@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-saymyname",
+  "version": "0.0.1",
+  "description": "Second attempt to build a running cordova plugin to say my name.",
+  "cordova": {
+    "id": "cordova-plugin-saymyname",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshitChhipa/sayMyName.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Harshit Chhipa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshitChhipa/sayMyName/issues"
+  },
+  "homepage": "https://github.com/HarshitChhipa/sayMyName#readme"
+}
