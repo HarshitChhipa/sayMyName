@@ -4,7 +4,7 @@ var exec = require("cordova/exec");
 //     exec(success, error, 'sayMyName', 'coolMethod', [arg0]);
 // };
 window.sayMyName = function (str, callback) {
-  exec(
+  cordova.exec(
     callback,
     function (err) {
       callback("I broke somewhere while processing.");
