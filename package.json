@@ -16,7 +16,10 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova:harshit",
+    "cordova:sayMyName",
+    "cordova:chhipa_harshit"
   ],
   "author": "Harshit Chhipa",
   "license": "ISC",

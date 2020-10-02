@@ -3,7 +3,7 @@ var exec = require("cordova/exec");
 // exports.coolMethod = function (arg0, success, error) {
 //     exec(success, error, 'sayMyName', 'coolMethod', [arg0]);
 // };
-window.sayMyName = function (str, callback) {
+var sayMyName = function (str, callback) {
   exec(
     callback,
     function (err) {
@@ -14,3 +14,5 @@ window.sayMyName = function (str, callback) {
     [str]
   );
 };
+
+module.exports = sayMyName;
