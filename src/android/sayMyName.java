@@ -31,7 +31,7 @@ public class sayMyName extends CordovaPlugin {
 
     private void sayMyNameMethod(String message, CallbackContext callbackContext) {
         if (message != null && message.length() > 0) {
-            callbackContext.success('Harshit Chhips is My Name');
+            callbackContext.success("Harshit Chhips is My Name");
         } else {
             callbackContext.error("Comon man Give me something at least.");
         }
