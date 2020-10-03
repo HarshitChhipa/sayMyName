@@ -2,11 +2,11 @@
 <plugin id="cordova-plugin-saymyname" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>sayMyName</name>
     <js-module name="sayMyName" src="www/sayMyName.js">
-        <clobbers target="cordova.plugins.sayMyName" />
+        <clobbers target="sayMyName" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="sayMyName">
+            <feature name="SayMyName">
                 <param name="android-package" value="cordova.plugin.saymyname.SayMyName" />
                 <param name="onload" value="true" />
             </feature>
