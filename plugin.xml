@@ -12,7 +12,7 @@
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/sayMyName.java" target-dir="src/cordova-plugin-saymyname/sayMyName" />
+        <source-file src="src/android/sayMyName.java" target-dir="src/cordova/plugin/saymyname/sayMyName" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
