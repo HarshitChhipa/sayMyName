@@ -30,10 +30,11 @@ public class sayMyName extends CordovaPlugin {
         Log.d(LOG_TAG, "executed");
         if (action.equals("sayMyName")) {
             String message = args.getString(0);
+            Log.d(LOG_TAG,message);
             cordova.getActivity().runOnUiThread(new Runnable() {
                 public void run() {
                     if (message != null && message.length() > 0) {
-                        callbackContext.success("Chhipa....Harshit Chhipa");
+                        callbackContext.success(message);
                     } else {
                         callbackContext.error("Common man Give me something at least.");
                     }

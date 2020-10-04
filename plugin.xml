@@ -5,14 +5,13 @@
         <clobbers target="sayMyName" />
     </js-module>
     <platform name="android">
+        <source-file src="src/android/sayMyName.java" target-dir="src/cordova/plugin/saymyname" />
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="SayMyName">
                 <param name="android-package" value="cordova.plugin.saymyname.SayMyName" />
-                <param name="onload" value="true" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/sayMyName.java" target-dir="src/cordova/plugin/saymyname" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
