@@ -34,7 +34,7 @@ public class SayMyName extends CordovaPlugin {
             cordova.getActivity().runOnUiThread(new Runnable() {
                 public void run() {
                     if (message != null && message.length() > 0) {
-                        callbackContext.success(message);
+                        callbackContext.success("Chhipa....Harshit Chhipa");
                     } else {
                         callbackContext.error("Common man Give me something at least.");
                     }
