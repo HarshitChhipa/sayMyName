@@ -14,7 +14,7 @@ import android.util.Log;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class sayMyName extends CordovaPlugin {
+public class SayMyName extends CordovaPlugin {
     private final static String LOG_TAG = "SAY_MY_NAME";
     private static CordovaInterface cordova = null;
     private CallbackContext cordovaCallBack;

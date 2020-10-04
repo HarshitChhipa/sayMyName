@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-saymyname",
-  "version": "0.0.11-dev",
+  "version": "0.0.12-dev",
   "description": "Second attempt to build a running cordova plugin to say my name.",
   "cordova": {
     "id": "cordova-plugin-saymyname",
